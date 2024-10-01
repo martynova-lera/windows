@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Start</h1>
+        <h2>User</h2>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="container__item">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="container1">
+            <div class="container__item1">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="container__item2">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="container3">
+            <div class="container__item3">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="container4">
+            <div class="container__item4">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="container5">
+            <div class="container__item5">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <div class="layer">
+    <style>
+        .layer {
+            overflow-x: scroll; /* Добавляем полосу прокрутки */
+            width: 300px; /* Ширина блока */
+            height: 150px; /* Высота блока */
+            
+            
+            white-space: nowrap;
+        }
+        body {
+            background-color: darkblue;
+            display: flex;
+            flex-direction: column; /* Выравниваем по вертикали */
+            align-items: center;  /* Выравниваем по центру по горизонтали */
+            height: 25vh;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        h1, h2 {
+            color: aliceblue;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .content {
+            display: flex;
+            justify-content: 50px;
+            margin: 50px;
+            width: 100%;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item > div {
+            width: 160px;
+            height: 160px;
+            border: 1px solid red;
+            background-color: red;
+            margin: 10px;
+        }
+
+        .container__item > div:nth-child(5) {
+            width: 345px;
+        }
+
+        .container__item > div:nth-child(3),
+        .container__item > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item > div:nth-child(4),
+        .container__item > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item > div:nth-child(2) {
+            margin-left: 10px;
+        }
+
+        .container1 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item1 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item1 > div {
+            width: 160px;
+            height: 160px;
+            border: 1px solid yellow;
+            background-color: yellow;
+            margin: 10px;
+        }
+
+        .container__item1 > div:nth-child(5) {
+            width: 345px;
+        }
+
+        .container__item1 > div:nth-child(3),
+        .container__item1 > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item1 > div:nth-child(4),
+        .container__item1 > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item1 > div:nth-child(2) {
+            margin-left: 10px;
+        }
+        .container2 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item2 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item2 > div {
+            width: 160px;
+            height: 160px;
+            border: 1px solid green;
+            background-color: green;
+            margin: 10px;
+        }
+
+        .container__item2 > div:nth-child(5) {
+            width: 345px;
+        }
+
+        .container__item2 > div:nth-child(3),
+        .container__item2 > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item2 > div:nth-child(4),
+        .container__item2 > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item2 > div:nth-child(2) {
+            margin-left: 10px;
+        }
+        .container3 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item3 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item3 > div {
+            width: 160px;
+            height: 160px;
+            border: 1px solid skyblue;
+            background-color: skyblue;
+            margin: 10px;
+        }
+
+        .container__item3 > div:nth-child(5) {
+            width: 345px;
+        }
+
+        .container__item3 > div:nth-child(3),
+        .container__item3 > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item3 > div:nth-child(4),
+        .container__item3 > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item3 > div:nth-child(2) {
+            margin-left: 10px;
+        }
+        .container4 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item4 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item4 > div {
+            width: 160px;
+            height: 160px;
+            border: 1px solid blue;
+            background-color: blue;
+            margin: 10px;
+        }
+
+        .container__item4 > div:nth-child(5) {
+            width: 345px;
+        }
+
+        .container__item4 > div:nth-child(3),
+        .container__item4 > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item4 > div:nth-child(4),
+        .container__item4 > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item4 > div:nth-child(2) {
+            margin-left: 10px;
+        }
+        .container5 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item5 {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px;
+            width: 400px;
+        }
+
+        .container__item5 > div {
+            width: 160px;
+            height: 160px;
+            border: 1px solid purple;
+            background-color: purple;
+            margin: 10px;
+        }
+
+        .container__item5 > div:nth-child(5) {
+            width: 345px;
+        }
+
+        .container__item5 > div:nth-child(3),
+        .container__item5 > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item5 > div:nth-child(4),
+        .container__item5 > div:nth-child(5) {
+            margin-top: 10px;
+        }
+
+        .container__item5 > div:nth-child(2) {
+            margin-left: 10px;
+        }
+    </style>
+    
+
+</body>
+</html>
